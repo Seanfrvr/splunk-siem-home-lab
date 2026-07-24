@@ -30,7 +30,7 @@ This surfaced each failed SSH attempt as it happened — including invalid users
 - SPL query writing for threat detection
 - SSH brute-force attack pattern recognition
 
-## Screenshots
+## Images
 
 **Splunk Enterprise deployed and running on Ubuntu**
 ![Splunk Enterprise dashboard](screenshots/1-splunk-dashboard.png)
