@@ -8,7 +8,7 @@ Built a fully functional SIEM environment from scratch on Ubuntu Linux to move b
 ## 🏗️ 1. Architecture & Log Forwarding Configuration
 
 <p align="center">
-  <img src="./images/siem_1_architecture_forwarder.png" alt="Splunk Universal Forwarder Configuration">
+  <img src="screenshots/2-receiving-pipeline.png" alt="Splunk Receiving Pipeline Configuration" width="100%">
 </p>
 <p align="center"><em>Figure 1: Splunk Enterprise receiver configuration listening on TCP Port 9997.</em></p>
 
@@ -22,9 +22,9 @@ Built a fully functional SIEM environment from scratch on Ubuntu Linux to move b
 ## 📥 2. Telemetry Ingestion & Volume Verification
 
 <p align="center">
-  <img src="./images/siem_2_ingestion_verification.png" alt="Splunk Ingestion Verification Query">
+  <img src="screenshots/3-live-logs.png" alt="Splunk Live Logs Ingestion" width="100%">
 </p>
-<p align="center"><em>Figure 2: Statistical verification in Splunk confirming active indexed event counts.</em></p>
+<p align="center"><em>Figure 2: Live event stream confirming active indexed system events across sourcetypes.</em></p>
 
 ### 📄 Ingestion Analysis
 * **Live Telemetry:** Successfully indexed **11,475 real system events** (live host activity, not sample/pre-canned data).
@@ -35,7 +35,7 @@ Built a fully functional SIEM environment from scratch on Ubuntu Linux to move b
 ## ⚡ 3. Attack Simulation & Threat Detection
 
 <p align="center">
-  <img src="./images/siem_3_attack_detection.png" alt="SSH Brute Force Detection Query">
+  <img src="screenshots/4-failed-ssh-logins.png" alt="SSH Brute Force Detection Query" width="100%">
 </p>
 <p align="center"><em>Figure 3: Targeted SPL query isolating SSH brute-force patterns across authentication logs.</em></p>
 
