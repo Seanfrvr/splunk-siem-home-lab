@@ -1,4 +1,4 @@
-# 🛡️ Splunk SIEM Home Lab – Log Ingestion & Threat Hunting
+# 🛡️ Splunk SIEM Home Lab – Basic Log Ingestion & Threat Hunting
 
 ## 📌 Project Overview
 Built a fully functional SIEM environment from scratch on Ubuntu Linux to move beyond guided labs and understand log pipelines end-to-end — from ingestion and indexing to real-time threat detection.
