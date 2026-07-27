@@ -47,16 +47,17 @@ Built a fully functional SIEM environment from scratch on Ubuntu Linux to move b
 index=main sourcetype=syslog "Failed password" OR "invalid user"
 | stats count by src_ip, user, host
 | sort - count
+```
 
-<h2>📊 4. Enterprise SOC Dashboard & Monitoring</h2>
+---
+
+## 📊 4. Enterprise SOC Dashboard & Monitoring
 
 <p align="center">
   <img src="screenshots/1-splunk-dashboard.png" alt="Splunk Security Dashboard" width="100%">
 </p>
 <p align="center"><em>Figure 4: Single-pane-of-glass dashboard displaying real-time login activity and system metrics.</em></p>
 
-<h3>📄 Operational Response</h3>
-<ul>
-  <li><strong>Real-Time Monitoring:</strong> Consolidated log streams into visual widgets to detect abnormal activity spikes at a glance.</li>
-  <li><strong>SOC Utility:</strong> Streamlines triage by giving analysts immediate visibility into high-frequency failure events.</li>
-</ul>
+### 📄 Operational Response
+* **Real-Time Monitoring:** Consolidated log streams into visual widgets to detect abnormal activity spikes at a glance.
+* **SOC Utility:** Streamlines triage by giving analysts immediate visibility into high-frequency failure events.
