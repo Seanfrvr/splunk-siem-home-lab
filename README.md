@@ -61,3 +61,11 @@ index=main sourcetype=syslog "Failed password" OR "invalid user"
 ### 📄 Operational Response
 * **Real-Time Monitoring:** Consolidated log streams into visual widgets to detect abnormal activity spikes at a glance.
 * **SOC Utility:** Streamlines triage by giving analysts immediate visibility into high-frequency failure events.
+
+---
+
+## 🎯 Conclusion & Key Takeaways
+
+* **Pipeline Engineering:** Successfully established a real-time ingestion pipeline, moving from bare-metal log generation to centralized SIEM indexing over encrypted TCP channels.
+* **Detection Efficacy:** Validated that native host logs (`auth.log` / `syslog`) combined with targeted SPL detection rules provide immediate operational visibility into brute-force and credential harvesting attempts.
+* **SOC Readiness:** Built practical foundation in configuring log forwarders, writing detection queries, and creating dashboard panels for continuous security monitoring.
